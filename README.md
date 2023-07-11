@@ -3,6 +3,24 @@
 #### In this project you will see the development and implementation of an automated system for creating Zoom meeting links.
 ---
 ---
+### *Required mudules* 
+- imaplib
+- clipboard
+- email
+- pyautogui
+- re
+- time 
+- smtplib
+- yaml
+
+<br>
+
+#### to install any package type in command
+```
+pip install module_name
+```
+---
+---
 
 ### *Steps envloved in project* 
 - First it reads the data from your gmail using imap.
@@ -34,25 +52,10 @@
   7. Copy the password and paste the password in credentials.
 ---
 ---
-### *Required mudules* 
-- imaplib
-- clipboard
-- email
-- pyautogui
-- re
-- time 
-- smtplib
-- yaml
 
 <br>
 
-#### to install any package type in command
-```
-pip install module_name
-```
-
-
-#### you need to edit in credentials and enter your gmail and password(got from app password above)
+#### you need to edit credentials and enter your gmail and password(got from app password above)
 - example (example@gmail.com, example1234)
 
 #### you can have list of receivers whom you want to send link.
